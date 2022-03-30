@@ -222,46 +222,33 @@
 		</div>
 	</div>
 	<div id="fh5co-consult">
-		<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d125323.4021623223!2d76.89719394268808!3d11.011870081679296!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba859af2f971cb5%3A0x2fc1c81e183ed282!2sCoimbatore%2C%20Tamil%20Nadu!5e0!3m2!1sen!2sin!4v1647926016967!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe></div>
-		</div>
+		<div style="width: 100%"><iframe width="100%" height="600" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=salem,tamilnadu,india+(My%20Business%20Name)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"><a href="https://www.gps.ie/marine-gps/">marine gps</a></iframe></div>		</div>
 		<br>
 		<br>
 		<div class="choose animate-box">
 			<h2>Contact</h2>
-			<form action="#">
-				<div class="row form-group">
-					<div class="col-md-6">
-						<input type="text" id="fname" class="form-control" placeholder="Your firstname">
-					</div>
-				</div>
-				<div class="row form-group">
-					<div class="col-md-6">
-						<input type="text" id="lname" class="form-control" placeholder="Your lastname">
-					</div>
-				</div>
-
-				<div class="row form-group">
-					<div class="col-md-12">
-						<input type="text" id="email" class="form-control" placeholder="Your email address">
-					</div>
-				</div>
-
-				<div class="row form-group">
-					<div class="col-md-12">
-						<input type="text" id="subject" class="form-control" placeholder="Your subject of this message">
-					</div>
-				</div>
-
-				<div class="row form-group">
-					<div class="col-md-12">
-						<textarea name="message" id="message" cols="30" rows="10" class="form-control" placeholder="Say something about us"></textarea>
-					</div>
-				</div>
-				<div class="form-group">
-					<input type="submit" value="Send Message" class="btn btn-primary">
-				</div>
-
-			</form>	
+			<form name="frmContact" method="post" action="sri.php">
+				<p>
+				<label for="Name">Name </label>
+				<input type="text" name="txtName" id="txtName">
+				</p>
+				<p>
+				<label for="email">Email</label>
+				<input type="text" name="txtEmail" id="txtEmail">
+				</p>
+				<p>
+				<label for="phone">Phone</label>
+				<input type="text" name="txtPhone" id="txtPhone">
+				</p>
+				<p>
+				<label for="message">Message</label>
+				<textarea name="txtMessage" id="txtMessage"></textarea>
+				</p>
+				<p>&nbsp;</p>
+				<p>
+				<input type="submit" name="Submit" id="Submit" value="Submit">
+				</p>
+				</form>	
 		</div>
 		
 	</div>
