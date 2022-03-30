@@ -2,10 +2,10 @@
 // database connection code
 // $con = mysqli_connect('localhost', 'database_user', 'database_password','database');
 
-$host        = "host=ec2-54-157-79-121.compute-1.amazonaws.com";
+$host        = "host=ec2-54-173-77-184.compute-1.amazonaws.com";
 $port        = "port=5432";
-$dbname      = "dbname = d1m0mqe1oeckke";
-$credentials = "user = osjmfivsyfdpqd password=c0938f8c041b9b2d84446372c7b09020793f21e90ea261fde8f09879bf30ef4c";
+$dbname      = "dbname = d2idq0j9577bq7";
+$credentials = "user = uhstuthvacrjem password=cff386185e984a6151825844d5f8051e460bceb92558ed7e9758c5fdea05092d";
 
 $con = pg_connect( "$host $port $dbname $credentials"  );
 
